@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body{
+    background-color: #ffd6e3;
+}
+
+.bg-pink {
+    background-color: #ffc0cb !important;
+}
+
+.bg-light-pink {
+    background-color: #ffd6e3 !important;
+}
+
+.navbar {
+    background-color: #ff69b4 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.btn-lg{
+    background-color: lightpink;
+    border: lightpink;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+}
+
+.btn-lg:hover{
+    background-color: pink;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+            <div class="container">
+                <a class="navbar-brand" href="#">Pokémon World</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pokedex.html">Pokédex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="generation.html">Generations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="jumbotron text-center bg-light-pink">
+            <div class="container">
+                <h1 class="display-4">Welcome to the Pokémon World</h1>
+                <a href="pokedex.html" class="btn btn-primary btn-lg">Start Exploring</a>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
